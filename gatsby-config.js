@@ -10,9 +10,16 @@ module.exports = {
     resolve: 'gatsby-source-sanity',
     options: {
       "projectId": "pd3ajmzq",
-      "dataset": "production"
+      "dataset": "production",
+      "graphqlTag": "default"
     }
-  }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-postcss", "gatsby-plugin-google-gtag", "gatsby-plugin-sitemap", {
+  }, {
+    resolve: "gatsby-plugin-google-gtag",
+    options: {
+      trackingIds: ["G-MYRTZQ9BE4"]
+    }
+  },
+    "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-postcss", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"
