@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-pattern': 'url(../images/line-pattern-background.png)',
+        'project-thumbnail': 'url(../images/thumbnail-grid-background.png)',
       },
       fontFamily: {
         'Inter': 'Inter, sans-serif',
